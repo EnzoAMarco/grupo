@@ -1,3 +1,45 @@
 body{
   background-color: green;
 }
+
+section{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: calc(100vh - 3.5rem - 4vh);
+}
+
+.box_container_equipo{
+  display: flex;
+  flex-flow: column;
+
+  justify-content: space-evenly;
+  height: 60vh;
+  width: 16vw;
+  background-color: aquamarine;
+}
+
+.box_img_equipo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  width: 100%;
+}
+
+img{
+  border-radius: 50%;
+  max-width: auto;
+  height: 20vh;
+}
+
+header{
+display: flex;
+justify-content: center;
+}
+
+h1{
+  transform: translateY(6vh);
+  font-size: 2rem;
+}
