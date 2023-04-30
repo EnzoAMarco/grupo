@@ -21,7 +21,16 @@ body{
   flex-wrap: wrap;
 }
 
-.cart{
+.namecar{
+  background: linear-gradient(rgb(49, 48, 48), transparent);
+  width: 15.1em;
+  height: 6em;
+  margin-top: 0%;
+  position: absolute;
+  text-align: center;
+  padding-top: 2em;
+  font-size: xx-large;
+  font-weight: bold;
 }
 
 .infocar{
@@ -72,8 +81,16 @@ body{
 }
 
 
-.hoja{
-
+.namehoja{
+  background: linear-gradient(rgb(49, 48, 48), transparent);
+  width: 15.1em;
+  height: 6em;
+  margin-top: 0%;
+  position: absolute;
+  text-align: center;
+  padding-top: 2em;
+  font-size: xx-large;
+  font-weight: bold;
 }
 
 @media (max-width: 578px) {
@@ -96,6 +113,7 @@ body{
   }
 
   .ahorro{
+    margin-top: 30em;
     margin-bottom: 4em;
   }
 
