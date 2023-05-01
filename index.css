@@ -6,6 +6,7 @@ body{
     background-attachment: fixed;
     display: flex;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .triangulo{
@@ -17,12 +18,13 @@ border-bottom: 6px solid transparent;
 display: flex;
 flex-wrap: wrap;
 align-items: flex-end;
-position: relative; top: 263px;
+position: absolute; 
+bottom: -1px;
 transform: rotate(0.5deg);
 overflow: hidden;
 }
 
-html{
+body{
     height: 100%;
 }
 
