@@ -1,5 +1,9 @@
+*{
+  color: #F5F4F4;
+}
+
 body{
-  background-color: green;
+  background-color: #211E20;
 }
 
 section{
@@ -10,14 +14,43 @@ section{
   height: calc(100vh - 3.5rem - 4vh);
 }
 
+.nav_main_li_on > a{
+  border: 1px solid #F5F4F4 !important;
+}
+
 .box_container_equipo{
   display: flex;
   flex-flow: column;
-
   justify-content: space-evenly;
   height: 60vh;
   width: 16vw;
-  background-color: aquamarine;
+  border: #F5F4F4 2px solid;  
+  border-radius: 16px;
+  padding: 1rem;
+  transition: .3s ease;
+}
+
+.box_container_equipo:hover{
+  background-color: #F5F4F4;
+  width: 20vw;
+  height: 65vh;
+
+}
+
+.box_container_equipo:hover > h3{
+  color: #211E20;
+}
+
+.box_container_equipo:hover > h3 > a{
+  color: #211E20;
+}
+
+.box_container_equipo:hover > .text_info {
+  color: #211E20;
+}
+
+.box_container_equipo:hover > .div_nombre > .nombre{
+  color: #211E20;
 }
 
 .box_img_equipo{
@@ -35,11 +68,40 @@ img{
 }
 
 header{
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 h1{
   transform: translateY(6vh);
   font-size: 2rem;
+}
+
+.div_nombre{
+  display: flex;
+  justify-content: center;
+}
+
+a:link {
+  color: #F5F4F4;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #F5F4F4;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #211E20;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: #F5F4F4;
+  background-color: transparent;
+  text-decoration: none;
 }
