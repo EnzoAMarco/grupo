@@ -1,3 +1,166 @@
+*{
+  color: #F5F4F4;
+}
+
 body{
-  background-color: green;
+  background-color: #211E20;
+}
+
+section{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: calc(100vh - 3.5rem - 4vh);
+}
+
+.nav_main_li_on > a{
+  border: 1px solid #F5F4F4 !important;
+}
+
+.box_container_equipo{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  height: 70vh;
+  width: 20vw;
+  border: #F5F4F4 2px solid;  
+  border-radius: 16px;
+  padding: 1rem;
+  transition: .3s ease;
+}
+
+.box_container_equipo:hover{
+  background-color: #F5F4F4;
+  width: 23vw;
+  height: 75vh;
+}
+
+.box_container_equipo:hover > h3{
+  color: #211E20;
+}
+
+.box_container_equipo:hover > h3 > a{
+  color: #211E20;
+}
+
+.box_container_equipo:hover > .text_info {
+  color: #211E20;
+}
+
+.box_container_equipo:hover > .div_nombre > .nombre{
+  color: #211E20;
+}
+
+.box_img_equipo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  width: 100%;
+}
+
+img{
+  border-radius: 50%;
+  max-width: auto;
+  height: 20vh;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  transform: translateY(3vh);
+  font-size: 2rem;
+}
+
+.div_nombre{
+  display: flex;
+  justify-content: center;
+}
+
+a:link {
+  color: #F5F4F4;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #F5F4F4;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #211E20;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: #F5F4F4;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+@media (max-width: 1650px){
+
+  .box_container_equipo:hover{
+    background-color: #F5F4F4;
+    width: 30vw;
+    height: 80vh;
+  }
+
+  section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: calc(100vh - 3.5rem - 4vh);
+
+    flex-flow: wrap row;
+  }
+
+  h1{
+    transform: none;
+  }
+
+  .box_container_equipo{
+    display: flex;
+    flex-flow: wrap unset;
+    justify-content: space-evenly;
+    height: 80vh;
+    width: 30vw;
+    margin: 4vh 3vw;
+    border: #F5F4F4 2px solid;  
+    border-radius: 16px;
+    padding: 1rem;
+    transition: .3s ease;
+  }
+}
+
+@media (max-width: 850px){
+
+  .box_container_equipo:hover{
+    width: 60vw;
+  }
+
+  .box_container_equipo{
+    height: 80vh;
+    width: 60vw;
+  }
+}
+
+@media (max-width: 500px){
+
+  .box_container_equipo:hover{
+    width: 80vw;
+  }
+
+  .box_container_equipo{
+    height: 80vh;
+    width: 80vw;
+  }
 }

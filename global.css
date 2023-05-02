@@ -34,18 +34,20 @@ a:active {
 /* NAV */
 /* NAV */
 .nav_main{
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100vw;
+  margin: 2vh 0;
 }
 
 .nav_main_ul{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  width: 40vw;
 }
 
 .nav_main_li{
   display: inline-block;
-  margin: 1.5rem;
 }
 
 .nav_main_li_on > a{
