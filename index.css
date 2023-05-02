@@ -13,9 +13,9 @@ h2{
     display: flex;
     flex-wrap: nowrap;
     position: absolute;
-  bottom: 80px;
-  left: 5px;
-  font-size: 40px;
+  bottom: 60px;
+  left: 2px;
+  font-size: 60px;
 }
 
 .triangulo{
