@@ -11,7 +11,7 @@ section{
   align-items: center;
   justify-content: space-around;
   width: 100vw;
-  height: calc(100vh - 3.5rem - 4vh);
+  height: calc(100vh - 4.5rem - 4vh);
 }
 
 .nav_main_li_on > a{
@@ -76,6 +76,11 @@ h1{
   font-size: 2rem;
 }
 
+h3{
+  font-size: 1rem;
+  font-weight: 800;
+}
+
 .div_nombre{
   display: flex;
   justify-content: center;
@@ -94,7 +99,7 @@ a:visited {
 }
 
 a:hover {
-  color: #211E20;
+  color: #F5F4F4;
   background-color: transparent;
   text-decoration: none;
 }

@@ -1,13 +1,13 @@
 body{
-    background-image: url("yes.png");
+    background-image: url("/assets/forest_de_enzo.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
     background-attachment: fixed;
+    background-position: center center;  
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
-    width: 100vh;
+    width: 100vw;
     height: 100vh;
 }
 
@@ -15,10 +15,19 @@ h2{
     display: flex;
     flex-wrap: nowrap;
     position: fixed;
-  bottom: 60px;
-  left: 2px;
-  font-size: 60px;
+    bottom: 60px;
+    left: 2px;
+    font-size: 3rem;
 }
+
+.nav_main_li_on > a{
+    border: 1px solid #F5F4F4 !important;
+    color: #F5F4F4
+  }
+  
+  .nav_main_li > a{
+    color: #F5F4F4
+  }  
 
 .triangulo{
 width: 0;
@@ -40,7 +49,7 @@ body{
     height: 100%;
 }
 
-footer{
+/* footer{
     position: fixed;
     left: 0;
     bottom: 0;
@@ -48,5 +57,14 @@ footer{
     background-color: forestgreen;
     color: white;
     text-align: center;
+} */
+
+.frase{
+  padding: .5rem;
 }
 
+@media (max-width: 1050px){
+body{
+  background-position: 25% 0%;  
+}
+}
