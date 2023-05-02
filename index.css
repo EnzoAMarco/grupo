@@ -11,6 +11,16 @@ body{
     height: 100vh;
 }
 
+.explain{
+    display: flex;
+    flex-wrap: nowrap;
+    position: fixed;
+    bottom: 60px;
+    left: 2px;
+    font-size: 2em;
+    text-align: center;
+}
+
 .copy{
     display: flex;
     position: fixed;
