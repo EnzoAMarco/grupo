@@ -12,6 +12,16 @@ body{
     height: 100vh;
 }
 
+.nav_main_li_on > a{
+    border: 1px solid #F5F4F4 !important;
+    color: #F5F4F4
+  }
+  
+  .nav_main_li > a{
+    color: #F5F4F4
+  }  
+
+
 .explain{
     display: flex;
     flex-wrap: nowrap;
