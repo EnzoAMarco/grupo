@@ -7,7 +7,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
-    width: 100vh;
+    width: 100vw;
     height: 100vh;
 }
 
@@ -15,25 +15,25 @@ h2{
     display: flex;
     flex-wrap: nowrap;
     position: fixed;
-  bottom: 60px;
-  left: 2px;
-  font-size: 60px;
+    bottom: 60px;
+    left: 2px;
+    font-size: 60px;
 }
 
 .triangulo{
-width: 0;
-height: 0;
-border-top: 20rem solid transparent;
-border-left: 60rem solid white;
-border-bottom: 6px solid transparent;
-display: flex;
-flex-wrap: wrap;
-align-items: flex-end;
-position: fixed; 
-bottom: -1px;
-transform: rotate(0.5deg);
-overflow: visible;
-align-self: flex-end;
+    width: 0;
+    height: 0;
+    border-top: 20rem solid transparent;
+    border-left: 60rem solid white;
+    border-bottom: 6px solid transparent;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    position: fixed; 
+    bottom: -1px;
+    transform: rotate(0.5deg);
+    overflow: visible;
+    align-self: flex-end;
 }
 
 body{
