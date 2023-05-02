@@ -9,6 +9,15 @@ body{
     overflow: hidden;
 }
 
+h2{
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+  bottom: 80px;
+  left: 5px;
+  font-size: 40px;
+}
+
 .triangulo{
 width: 0;
 height: 0;
@@ -37,3 +46,4 @@ footer{
     color: white;
     text-align: center;
 }
+
