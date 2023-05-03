@@ -58,3 +58,9 @@ body{
 body{
     height: 100%;
 }
+
+@media (max-width: 1050px){
+  body{
+    background-position: 25% 0%;  
+  }
+}
