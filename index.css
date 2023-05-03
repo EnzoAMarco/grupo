@@ -63,4 +63,8 @@ body{
   body{
     background-position: 25% 0%;  
   }
+  .explain{
+    font-size: 1.5rem;
+    bottom: 10vh;
+  }
 }
