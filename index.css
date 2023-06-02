@@ -1,6 +1,5 @@
 body{
-  /* git subio el link? */
-    background-image: url("/grupo/assets/forest_de_enzo.png");
+    background-image: url("/assets/forest_de_enzo.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -12,6 +11,17 @@ body{
     height: 100vh;
 }
 
+.frase{
+    position: fixed;
+    bottom: 60px;
+    left: 2px;
+    font-size: 3rem;
+}
+
+.rompe_huevos{
+  font-weight: 900;
+}
+
 .nav_main_li_on > a{
     border: 1px solid #F5F4F4 !important;
     color: #F5F4F4
@@ -21,50 +31,54 @@ body{
     color: #F5F4F4
   }  
 
-
-.explain{
-    display: flex;
-    flex-wrap: nowrap;
-    position: fixed;
-    bottom: 60px;
-    left: 2px;
-    font-size: 2em;
-    text-align: center;
-}
-
-.copy{
-    display: flex;
-    position: fixed;
-    bottom: 8px;
-    left: 2px;
-}
-
 .triangulo{
-    width: 0px;
-    height: 0px;
-    border-top: 20rem solid transparent;
-    border-left: 100rem solid rgba(245, 244, 244, 0.9);
-    border-bottom: 6px solid transparent;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    position: fixed; 
-    bottom: -1px;
-    transform: rotate(0.5deg);
-    overflow: visible;
-    align-self: flex-end;
+width: 0;
+height: 0;
+border-top: 35vh solid transparent;
+border-left: 100vw solid #F5F4F4;
+border-bottom: 6px solid transparent;
+display: flex;
+flex-wrap: wrap;
+align-items: flex-end;
+position: fixed; 
+bottom: -1px;
+/* transform: rotate(0.5deg); */
+overflow: visible;
+align-self: flex-end;
+opacity: .5;
+
 }
 
 body{
     height: 100%;
 }
 
+/* footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: forestgreen;
+    color: white;
+    text-align: center;
+} */
+
+.frase{
+  padding: .5rem;
+}
+
 @media (max-width: 1050px){
   body{
     background-position: 25% 0%;  
   }
-  .explain{
-    font-size: 1.5rem;
-    bottom: 10vh;
+
+  .triangulo{
+    border-top: 25vh solid #F5F4F4;
+    border-left: 100vw solid #F5F4F4;
+    border-bottom: 6px solid transparent;
+  }
+
+  .frase{
+    font-size: 2rem;
   }
 }
