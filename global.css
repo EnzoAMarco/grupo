@@ -43,6 +43,7 @@ a:active {
 .nav_main_ul{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   width: 40vw;
 }
 
