@@ -148,19 +148,14 @@ a:active {
 
 @media (max-width: 1050px){
 
-  .box_container_equipo:hover{
+  /* .box_container_equipo:hover{
     width: 60vw;
   }
 
   .box_container_equipo{
     height: 80vh;
     width: 60vw;
-  }
-
-
-}
-
-@media (max-width: 500px){
+  } */
 
   .box_container_equipo:hover{
     width: 80vw;
@@ -170,4 +165,17 @@ a:active {
     height: 80vh;
     width: 80vw;
   }
+
 }
+
+/* @media (max-width: 500px){
+
+  .box_container_equipo:hover{
+    width: 80vw;
+  }
+
+  .box_container_equipo{
+    height: 80vh;
+    width: 80vw;
+  }
+} */
