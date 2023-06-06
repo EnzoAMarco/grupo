@@ -16,7 +16,7 @@ body{
 /* first view */
 .bg_black{
   width: 100vw;
-  height: 95vh;
+  height: auto;
   background-color: #211E20;
   color: #F5F4F4;
   display: flex;
