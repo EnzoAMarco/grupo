@@ -80,12 +80,7 @@ body{
 
   .frase{
     font-size: 2rem;
-  }
+    bottom: 1rem;
 
-  .frase{
-    position: fixed;
-    bottom: 5vh;
-    left: 2px;
-    font-size: 3rem;
   }
 }
