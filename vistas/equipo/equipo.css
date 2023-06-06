@@ -146,7 +146,7 @@ a:active {
   }
 }
 
-@media (max-width: 850px){
+@media (max-width: 1050px){
 
   .box_container_equipo:hover{
     width: 60vw;
@@ -156,6 +156,8 @@ a:active {
     height: 80vh;
     width: 60vw;
   }
+
+
 }
 
 @media (max-width: 500px){
