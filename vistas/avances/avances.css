@@ -485,7 +485,7 @@ body{
 }
 
 .ayuda2:hover{
-  color: #211e20cc;
+  color: #211e20cc !important;
 }
 
 /* responsive */
