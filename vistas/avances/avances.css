@@ -484,9 +484,9 @@ body{
   margin: 2vh 0;
 }
 
-/* .ayuda2{
-
-} */
+.ayuda2:hover{
+  color: #211e20cc;
+}
 
 /* responsive */
 @media (max-width: 700px){
