@@ -19,11 +19,11 @@ a:visited {
   text-decoration: none;
 }
 
-a:hover {
+/* a:hover {
   color: #F5F4F4;
   background-color: transparent;
   text-decoration: none;
-}
+} */
 
 a:active {
   color: #0F0F0F;

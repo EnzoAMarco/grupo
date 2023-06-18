@@ -484,18 +484,6 @@ body{
   margin: 2vh 0;
 }
 
-.ayuda{
-  color: #211E20 !important;
-}
-
-.ayuda:hover{
-  color: #211E20 !important;
-}
-
-.ayuda:visited{
-  color: #211E20 !important;
-}
-
 /* responsive */
 @media (max-width: 700px){
   .img_organigrama{
@@ -586,25 +574,25 @@ h3{
   justify-content: center;
 }
 
-a:link {
+.ayuda:link {
   color: #F5F4F4;
   background-color: transparent;
   text-decoration: none;
 }
 
-a:visited {
+.ayuda:visited {
   color: #F5F4F4;
   background-color: transparent;
   text-decoration: none;
 }
 
-a:hover {
+.ayuda:hover {
   color: #F5F4F4;
   background-color: transparent;
   text-decoration: none;
 }
 
-a:active {
+.ayuda:active {
   color: #F5F4F4;
   background-color: transparent;
   text-decoration: none;
