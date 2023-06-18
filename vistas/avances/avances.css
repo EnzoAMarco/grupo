@@ -484,6 +484,18 @@ body{
   margin: 2vh 0;
 }
 
+.ayuda{
+  color: #211E20 !important;
+}
+
+.ayuda:hover{
+  color: #211E20 !important;
+}
+
+.ayuda:visited{
+  color: #211E20 !important;
+}
+
 /* responsive */
 @media (max-width: 700px){
   .img_organigrama{
