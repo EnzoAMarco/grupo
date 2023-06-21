@@ -4,19 +4,23 @@
 }
 
 .main_h1{
-    background-color: #211E20;
+    /* background-color: #211E20; */
     width: 100vw;
-    color: #f5f4f4;
+    /* color: #f5f4f4; */
     font-size: 3em;
     padding-left: 1em;
 }
 
 .main_sitio_proyecto{
-    height: 90vh;
+    /* height: 90vh; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+.main_sitio_proyecto>div{
+    padding: 1rem;
 }
 
 .video{
@@ -27,9 +31,9 @@
 @media screen and (max-width:400px){
 
     .main_h1{
-        background-color: #211E20;
+        /* background-color: #211E20; */
         width: 100vw;
-        color: #f5f4f4;
+        /* color: #f5f4f4; */
         font-size: 1em;
         padding-left: 1em;
     }
