@@ -12,6 +12,7 @@ body{
   margin: 0px;
   padding: 0%;
   background-repeat: no-repeat;
+  box-sizing: border-box !important; 
 
 }
 
@@ -147,7 +148,7 @@ body{
 }
 
 .main_sitio_proyecto{
-  /* height: 90vh; */
+  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -159,8 +160,8 @@ body{
 }
 
 .video{
-  width: 80vw;
-  height: 50vh;
+  width: 60vw;
+  height: 40vh;
 }
 
 .div_iframe_video{
