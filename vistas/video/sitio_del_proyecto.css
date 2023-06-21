@@ -28,6 +28,10 @@
     height: 50vh;
 }
 
+.div_iframe_video{
+    width: 70vw;
+}
+
 @media screen and (max-width:400px){
 
     .main_h1{
@@ -37,5 +41,7 @@
         font-size: 1em;
         padding-left: 1em;
     }
-    
+    .div_iframe_video{
+        width: 80vw;
+    }
 }
